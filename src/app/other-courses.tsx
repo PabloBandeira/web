@@ -34,12 +34,12 @@ export function OtherCourses() {
   return (
     <section className="pb-20 px-8">
       <div className="container mx-auto mb-20 text-center">
-        <Typography variant="h2" color="blue-gray" className="mb-4">
+        <Typography variant="h2" color="blue-gray" className="mb-4" {...(undefined as any)}>
           Other Courses
         </Typography>
         <Typography
           variant="lead"
-          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12"
+          className="mx-auto w-full px-4 font-normal !text-gray-500 lg:w-6/12" {...(undefined as any)}
         >
           Looking to elevate your web development skills? Browse through 1,000+
           web development courses and find the one that fits your needs.

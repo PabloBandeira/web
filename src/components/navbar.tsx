@@ -21,6 +21,7 @@ function NavItem({ children, href }: NavItemProps) {
         target={href ? "_blank" : "_self"}
         variant="small"
         className="font-medium"
+        {...(undefined as any)}
       >
         {children}
       </Typography>
@@ -62,9 +63,10 @@ export function Navbar() {
       blurred={false}
       color={isScrolling ? "white" : "transparent"}
       className="fixed top-0 z-50 border-0"
+      {...(undefined as any)}
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"}>
+        <Typography variant="h6" color={isScrolling ? "blue-gray" : "white"} {...(undefined as any)}>
           Material Tailwind
         </Typography>
         <ul
@@ -84,6 +86,7 @@ export function Navbar() {
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
+            {...(undefined as any)}
           >
             <i className="fa-brands fa-twitter text-base" />
           </IconButton>
@@ -91,6 +94,7 @@ export function Navbar() {
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
+            {...(undefined as any)}
           >
             <i className="fa-brands fa-facebook text-base" />
           </IconButton>
@@ -98,11 +102,12 @@ export function Navbar() {
             variant="text"
             color={isScrolling ? "gray" : "white"}
             size="sm"
+            {...(undefined as any)}
           >
             <i className="fa-brands fa-instagram text-base" />
           </IconButton>
           <a href="https://www.material-tailwind.com/blocks" target="_blank">
-            <Button color={isScrolling ? "gray" : "white"} size="sm">
+            <Button color={isScrolling ? "gray" : "white"} size="sm" {...(undefined as any)}>
               Blocks
             </Button>
           </a>
@@ -112,6 +117,7 @@ export function Navbar() {
           color={isScrolling ? "gray" : "white"}
           onClick={handleOpen}
           className="ml-auto inline-block lg:hidden"
+          {...(undefined as any)}
         >
           {open ? (
             <XMarkIcon strokeWidth={2} className="h-6 w-6" />
@@ -134,17 +140,17 @@ export function Navbar() {
             </NavItem>
           </ul>
           <div className="mt-4 flex gap-2">
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton variant="text" color="gray" size="sm" {...(undefined as any)}>
               <i className="fa-brands fa-twitter text-base" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton variant="text" color="gray" size="sm" {...(undefined as any)}>
               <i className="fa-brands fa-facebook text-base" />
             </IconButton>
-            <IconButton variant="text" color="gray" size="sm">
+            <IconButton variant="text" color="gray" size="sm" {...(undefined as any)}>
               <i className="fa-brands fa-instagram text-base" />
             </IconButton>
             <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray" size="sm" className="ml-auto">
+              <Button color="gray" size="sm" className="ml-auto" {...(undefined as any)}>
                 Blocks
               </Button>
             </a>

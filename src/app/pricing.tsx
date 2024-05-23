@@ -16,30 +16,30 @@ export function Pricing() {
     <div className="grid min-h-screen place-items-center">
       <section className="container mx-auto px-10">
         <div className="grid place-items-center pb-20 text-center">
-          <Typography variant="h2" color="blue-gray">
+          <Typography variant="h2" color="blue-gray" {...(undefined as any)}>
             Best no-tricks pricing
           </Typography>
-          <Typography variant="lead" className="mt-2 !text-gray-500 lg:w-5/12">
+          <Typography variant="lead" className="mt-2 !text-gray-500 lg:w-5/12" {...(undefined as any)}>
             If you are not satisfied, contact us within the first 30 days and we
             will send you a full refund.
           </Typography>
         </div>
-        <Card className="px-6 pb-5">
-          <CardBody>
-            <Typography variant="h3" color="blue-gray">
+        <Card className="px-6 pb-5" {...(undefined as any)}>
+          <CardBody {...(undefined as any)}>
+            <Typography variant="h3" color="blue-gray" {...(undefined as any)}>
               React Course Membership
             </Typography>
             <div className="grid grid-cols-1 items-center gap-20 lg:grid-cols-2">
               <div>
                 <Typography
                   variant="paragraph"
-                  className="mb-10 mt-2 w-full font-normal !text-gray-500"
+                  className="mb-10 mt-2 w-full font-normal !text-gray-500" {...(undefined as any)}
                 >
                   Our Course Package offers full access to the React Course,
                   including all course materials, assignments, and projects.
                 </Typography>
                 <div className="flex flex-wrap items-center gap-x-20 gap-y-6">
-                  <Typography variant="h6" color="blue-gray">
+                  <Typography variant="h6" color="blue-gray" {...(undefined as any)}>
                     What is included
                   </Typography>
                   <hr className="w-72 bg-gray-500" />
@@ -54,7 +54,7 @@ export function Pricing() {
                       />
                       <Typography
                         variant="paragraph"
-                        className="font-normal !text-gray-500"
+                        className="font-normal !text-gray-500" {...(undefined as any)}
                       >
                         {option}
                       </Typography>
@@ -63,18 +63,18 @@ export function Pricing() {
                 </div>
               </div>
               <div className="grid place-items-center lg:justify-end">
-                <Typography variant="h6" color="blue-gray">
+                <Typography variant="h6" color="blue-gray" {...(undefined as any)}>
                   Pay once, own it forever
                 </Typography>
-                <Typography variant="h1" color="blue-gray">
+                <Typography variant="h1" color="blue-gray" {...(undefined as any)}> 
                   $399
                 </Typography>
-                <Button color="gray" className="my-3">
+                <Button color="gray" className="my-3" {...(undefined as any)}>
                   get access
                 </Button>
                 <Typography
                   variant="small"
-                  className="font-normal !text-gray-500"
+                  className="font-normal !text-gray-500" {...(undefined as any)}
                 >
                   Get a free sample (20MB)
                 </Typography>

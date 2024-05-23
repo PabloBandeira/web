@@ -11,12 +11,12 @@ export function BackgroundCard({ title, children }: BackgroundCardProps) {
   return (
     <div className="grid place-items-center h-full px-8 py-6 bg-gray-900 rounded-xl">
       <div>
-        <Typography variant="h2" className="text-center" color="white">
+        <Typography variant="h2" className="text-center" color="white" {...(undefined as any)}>
           {title}
         </Typography>
         <Typography
           color="white"
-          className="my-2 text-base w-full text-center font-normal"
+          className="my-2 text-base w-full text-center font-normal" {...(undefined as any)}
         >
           {children}
         </Typography>

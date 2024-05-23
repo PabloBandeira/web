@@ -9,12 +9,18 @@ export function CarouselFeatures() {
   return (
     <section className="px-8 pt-40 pb-20">
       <div className="flex mb-16 flex-col items-center">
-        <Typography variant="h2" className="text-center mb-2" color="blue-gray">
-          What Students Say
+        <Typography
+        variant="h2"
+        className="text-center mb-2"
+        color="blue-gray"
+        {...(undefined as any)}
+        >
+        What Students Say
         </Typography>
         <Typography
           variant="lead"
           className="mb-3 w-full text-center font-normal !text-gray-500 lg:w-10/12"
+          {...(undefined as any)}
         >
           Discover what our students have to say about our course!
         </Typography>
@@ -37,6 +43,7 @@ export function CarouselFeatures() {
               ))}
             </div>
           )}
+          {...(undefined as any)}
         >
           {new Array(2).fill("").map((_, i) => (
             <div
@@ -48,6 +55,7 @@ export function CarouselFeatures() {
                   variant="lead"
                   color="white"
                   className="mb-5 text-xl font-normal "
+                  {...(undefined as any)}
                 >
                   Easy Shopping, Quick Delivery <br />
                   No need to stress about shopping for books. Order online and
@@ -58,6 +66,7 @@ export function CarouselFeatures() {
                   variant="small"
                   color="white"
                   className="font-medium uppercase"
+                  {...(undefined as any)}
                 >
                   Louis Miriam,{" "}
                   <span className="font-normal opacity-60">
